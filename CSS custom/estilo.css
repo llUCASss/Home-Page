@@ -458,11 +458,17 @@ footer .icon ul a{
 
     }
 
+    #home h1{
+
+        font-size: 2.5em;
+
+    }
+
     
 
     #sobre h1{
 
-        font-size: 5em;
+        font-size: 4em;
 
     }  
 
@@ -474,7 +480,7 @@ footer .icon ul a{
     }
     #depoimentos .titulo{
 
-        font-size: 3.8em;
+        font-size: 3.4em;
         
     
     }
@@ -485,7 +491,7 @@ footer .icon ul a{
     
     }
 
-    footer .img,h4,a{
+    .row{
 
         text-align: center;
  
@@ -506,7 +512,7 @@ footer .icon ul a{
     #sobre h1{
 
         
-        font-size: 5em;
+        font-size: 4em;
 
     }  
 
