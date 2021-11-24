@@ -1,0 +1,584 @@
+@charset "UTF-8";
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Fontes*/
+
+@font-face {
+
+    font-family: "logo";
+    src: url(../fontes/Fargo_It_PERSONAL_USE_ONLY.otf) format("opentype")
+    ;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "sobre";
+    src: url(../fontes/Caveat-VariableFont_wght.ttf) format("truetype");;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*CONFIGURAÇÂO DE TAMANHO DA PAGINA*/
+
+section{
+
+    min-width: 455px;
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*CCNFIGURAÇÂO GERAL*/
+
+body, html, #home{
+    
+    margin: 0px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Navegação Superior*/
+
+nav h2{
+
+    color: rgb(26, 25, 25);
+    font-size: 2.5em;
+    font-family: "logo",sans-serif;
+
+}
+
+nav.navbar-transparente {
+    
+    
+    padding: 15px 0px;
+    background: rgba(77, 27, 27, 0.521);
+
+}
+
+nav ul li a{
+
+    color: white;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    
+    color: rgba(128, 14, 14, 0.589);
+    font-weight: bold;
+
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: transparent ;
+}
+
+
+.divisor{
+
+    margin: 12px 15px;
+    width: 1px;
+    background: white;
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Home*/
+
+.fundo{
+
+    height: 100%;
+    opacity: 0.9;
+    background: url(../imagens/fotoforno.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#home .container{
+
+    padding-top: 200px;
+
+}
+
+#home h1{
+
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: .0.05em;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.capa{
+
+    text-align: center;
+
+}
+
+.carousel-control-next, .carousel-control-prev {
+    
+    
+    width: 2%;
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Sobre*/
+
+#sobre h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 6em;
+    font-weight: 700;
+
+}
+
+#sobre h2{
+
+    font-size: 3em;
+    padding-top: 10px;
+    font-family:"sobre";
+
+}
+
+
+
+#sobre p{
+
+    font-weight: 540;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    text-indent: 15px;
+    text-align: justify;
+
+}
+
+#sobre .btn{
+
+    margin-bottom: 10px;
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Cards*/
+
+.shadow{
+
+    background: rgba(255, 255, 255, 0.719);
+
+}
+
+#card-fundo{
+
+    
+    height: 100%;
+    opacity: 0.9;
+    background: url(../imagens/pexels-photo-3343622.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+
+.shadow{
+
+    border-radius: 20px;
+    border: 2px solid rgb(255, 196, 0);;
+
+}
+
+.card-header {
+
+    
+    color: white;
+    font-size: 2.5em;
+    font-family: "logo";
+    
+
+}
+
+.card-footer{
+
+    background: rgb(255, 196, 0);
+
+}
+
+.card-title{
+
+    font-weight: 550;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(255, 136, 0);
+    padding-bottom: 10px;
+}
+
+.card-text{
+
+    font-size: 1.2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#card-fundo .btn{
+
+    font-weight: 800;
+    color: white;
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Depoimentos*/
+
+#depoimentos{
+    
+    
+    background: linear-gradient(to top, rgba(255, 196, 0, 0.678),transparent 30%);
+    
+}
+
+#depoimentos .container{
+    
+    padding-bottom: 90px;
+    border-bottom: 1px solid rgb(255, 136, 0);
+    
+}
+
+
+#depoimentos h2{
+
+    font-size: 4em;
+    color: rgb(255, 196, 0) ;
+    font-family: "sobre";
+
+}
+
+.card-header{
+
+    background: rgb(71, 71, 71);
+
+}
+
+#depoimentos .titulo{
+
+    font-size: 6em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+#depoimentos i{
+
+    color: rgb(255, 196, 0);
+
+}
+#depoimentos p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+
+}
+#depoimentos .custom-p{
+
+    font-size: 1.2em;
+
+}
+#depoimentos .btn{
+    
+    color: rgb(43, 42, 42);
+    
+    
+}
+#depoimentos .btn:hover{
+    
+    color:rgb(255, 196, 0) ;
+    background: rgb(43, 42, 42);
+    
+    
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Cadastrar*/
+
+#cadastrar{
+
+    background:rgba(255, 196, 0, 0.678) ;
+
+}
+#cadastrar .card{
+
+    border-radius: 30px;
+    margin-top: 180px;
+
+}
+
+
+
+#cadastrar .card-header{
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#cadastrar .card-title{
+
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#cadastrar .btn{
+    
+    border: 1px solid rgb(43, 42, 42) ;
+    color: rgb(43, 42, 42);
+
+}
+
+#cadastrar .btn:hover{
+    
+    color:rgb(255, 196, 0) ;
+    background: rgb(43, 42, 42);
+    border: 1px solid rgb(255, 196, 0);
+    
+}
+
+.form-control {
+    
+    border: 1px solid rgb(255, 196, 0);
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Rodapé*/
+
+footer{
+
+
+    background: white;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+
+
+}
+
+footer ul,img{
+
+    padding-bottom: 10px;
+
+}
+
+
+footer h4{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: #262727;
+    font-size: 1.2em;
+    text-transform: uppercase;
+
+}
+
+footer ul li a{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 0.8em;
+    font-weight: bolder;
+
+}
+
+footer ul li a:hover{
+
+    color: rgb(255, 196, 0);
+    
+
+}
+
+footer .icon ul a{
+
+    text-align: center;
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Media query*/
+
+/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+
+    .divisor{
+
+        display: none;
+
+    }
+
+    .logo h2{
+
+        color: black;
+        padding-top: 10px;
+        font-size: 1.9em;
+
+    }
+
+    #home .container{
+
+        padding-top: 200px;
+
+    }
+
+    
+
+    #sobre h1{
+
+        font-size: 5em;
+
+    }  
+
+    #card-fundo{
+
+    
+        height: 1600px;
+    
+    }
+    #depoimentos .titulo{
+
+        font-size: 3.8em;
+        
+    
+    }
+    #depoimentos h2{
+
+        font-size: 3em;
+        
+    
+    }
+
+    footer .img,h4,a{
+
+        text-align: center;
+ 
+     }
+   
+}
+
+/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .divisor{
+
+        display: none;
+
+    }
+
+
+    #sobre h1{
+
+        
+        font-size: 5em;
+
+    }  
+
+    #card-fundo{
+
+    
+        height: 1100px;
+    
+    }
+    #depoimentos .titulo{
+
+        font-size: 4em;
+        
+    
+    }
+    #depoimentos h2{
+
+        font-size: 3em;
+        
+    
+    }
+
+    footer .img,h4,a{
+
+        text-align: center;
+ 
+     }
+    
+
+}
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    #sobre h1{
+
+        font-size: 5em;
+
+    }  
+
+
+    .card-header {
+
+        color: white;
+        font-size: 1.6em;
+        font-family: "logo";
+    
+    }
+
+    footer img{
+
+        width: 100px;
+
+    }
+   
+
+/*Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    
+}
+
+/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
