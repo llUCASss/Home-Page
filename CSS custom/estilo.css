@@ -22,9 +22,6 @@
 /*-----------------------------------------------------------------------------------------*/
 
 
-
-
-
 /*-----------------------------------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------------------------*/
@@ -438,6 +435,8 @@ footer .icon ul a{
 /*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
 @media (max-width: 575.98px) {
 
+    
+
     .divisor{
 
         display: none;
@@ -480,7 +479,7 @@ footer .icon ul a{
     }
     #depoimentos .titulo{
 
-        font-size: 3em;
+        font-size: 2.8em;
         
     
     }
@@ -489,6 +488,12 @@ footer .icon ul a{
         font-size: 3em;
         
     
+    }
+
+    .icone{
+
+        font-size: 3em;
+
     }
 
     .row{
@@ -533,6 +538,12 @@ footer .icon ul a{
         font-size: 3em;
         
     
+    }
+
+    .icone{
+
+        font-size: 3.5em;
+
     }
 
     footer .img,h4,a{
